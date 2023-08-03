@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(70, 70, 143);
+    height: 30px;
+    padding: 40px;
+    margin: 30px;
+}
+nav{
+    background-color: brown;
+    height: 40px;
+    margin: 50px;
+    
+}
+section{
+    background-color: darkolivegreen;
+    height: 90vh;
+    padding: 60px;
+}

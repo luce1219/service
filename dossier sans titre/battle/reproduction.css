@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border box;
+}
+header{height:120px;
+    width: 1500px;
+    background-color: rgb(rgb(217, 255, 0), rgb(180, 118, 17), blue);
+}

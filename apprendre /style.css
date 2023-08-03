@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 15vh;
+    border: 1px solid rgb(91, 196, 91);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+}
+nav{
+    height: 10vh;
+    border: 1px solid rgb(153, 87, 153);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+}
+main{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+footer{
+   height: 10vh; 
+   border: 1px solid rgb(196, 30, 30);
+   border-radius: 5px;
+   padding: 20px;
+   margin: 5px;
+}
+article{
+    height: 79vh;
+    border: 1px solid aqua;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    
+    
+}
+div{
+    margin: 5px;
+    padding: 20px;
+    height: 79vh;
+    border: 1px solid #ff000f;
+    border-radius: 5px;
+    display: grid;
+   
+}
+p{
+    height: 10vh;
+    border: 1px solid rgb(104, 174, 104);
+    align-content: ;
+}
+a{
+    height:10vh ;
+    border: 1px solid black;
+
+}
+section{
+    height: 10vh;
+    border: 1px solid black;
+    margin-inline-start: 2px;
+}
+

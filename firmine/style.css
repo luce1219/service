@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 3px solid pink;
+}
+div :nth-child(1){
+    background-color: aqua;
+}
+div :nth-child(2){
+    background-color: blueviolet;
+    z-index: 5;
+}
+div :nth-child(3){
+    background: green;
+    position: relative;
+    bottom: 60px;
+    right: 100px;
+    z-index: 8;
+    display: flex;
+   
+
+}
+
+section :nth-child(4){
+    background: darkorange;
+} 
+nav{
+    height: 25px;
+    width: 25px;
+    background: gainsboro;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 50px;
+    display: flex;
+
+}  
+    
